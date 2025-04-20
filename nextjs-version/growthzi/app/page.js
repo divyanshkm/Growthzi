@@ -1,6 +1,7 @@
 import Cards from "@/components/Cards";
 import CardSection from "@/components/CardSection";
 import Hero from "@/components/Hero";
+import OrderSection from "@/components/OrderSection";
 import Origin from "@/components/Origin";
 import Image from "next/image";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero/>
       <Origin/>
       <CardSection/>
+      <OrderSection/>
     </main>
   );
 }
