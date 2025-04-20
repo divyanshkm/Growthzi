@@ -17,8 +17,14 @@
   src: url("/fonts/million-dreams.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "InstrumentSans";
+  src: url("/fonts/InstrumentSans-Regular.ttf");
+}
+
 @theme {
   --font-million-dreams: "Million Dreams", sans-serif;
+  --font-instrument-sans: "InstrumentSans", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
