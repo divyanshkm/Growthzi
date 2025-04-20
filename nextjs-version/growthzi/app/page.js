@@ -1,3 +1,5 @@
+import Cards from "@/components/Cards";
+import CardSection from "@/components/CardSection";
 import Hero from "@/components/Hero";
 import Origin from "@/components/Origin";
 import Image from "next/image";
@@ -7,6 +9,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center">
       <Hero/>
       <Origin/>
+      <CardSection/>
     </main>
   );
 }
