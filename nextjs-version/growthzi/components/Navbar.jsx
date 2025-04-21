@@ -4,12 +4,17 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="w-full  h-[5.625rem] flex justify-around items-center">
-      <div className="relative w-[14.733rem] h-[3.064rem] flex items-center justify-center ">
-        <Image src={"/images/Group14.png"} fill={true} alt="local lush" />
+    <div className="w-full  h-[5.625rem] flex justify-between items-center px-17">
+      <div className=" flex items-center justify-center ">
+        <Image
+          src={"/images/Group14.svg"}
+          width={235.72}
+          height={49.02}
+          alt="local lush"
+        />
       </div>
 
-      <div className="flex items-center gap-10 font-medium text-base h-auto">
+      <div className="flex items-center justify-center gap-10 font-medium text-base h-auto">
         <Link href={"/"} className=" ">
           Shop
         </Link>
